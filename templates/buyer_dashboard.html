@@ -1,0 +1,9 @@
+<h2>Available Products</h2>
+{% for product in products %}
+    <div>
+        <h3>{{ product['product_name'] }}</h3>
+        <p>Quantity: {{ product['quantity'] }}</p>
+        <p>Price: ₹{{ product['price'] }}</p>
+        <p>Contact: {{ product['contact'] }}</p>
+    </div>
+{% endfor %}
