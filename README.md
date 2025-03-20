@@ -24,39 +24,6 @@ Database: MongoDB Atlas
 
 Version Control: Git & GitHub
 
-📂 Project Structure
-
-FarmLink/
-│── static/              # CSS, images, JS
-│── templates/           # HTML templates
-│── app.py               # Main Flask application (includes DB setup)
-│── requirements.txt     # Dependencies
-│── README.md            # Project documentation
-
-🚀 Installation
-
-Clone the Repository
-
-git clone https://github.com/kumar-reddy-kunchala/FarmLink.git
-cd FarmLink
-
-Create a Virtual Environment (Optional but recommended)
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-Install Dependencies
-
-pip install -r requirements.txt
-
-Run the Application
-
-python app.py
-
-Open in Browser
-
-Visit http://127.0.0.1:5000/
-
 📌 Usage
 
 For Farmers:
